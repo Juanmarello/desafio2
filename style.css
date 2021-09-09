@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    background: linear-gradient(to right, black, #333); 
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 300;
+}
+h3{
+    font-weight: 400;
+}
+p{
+    margin: 20px;
+    font-weight: 200;
+}
+.img_beer_div{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 150px;
+    background: #FF48CA;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px black;
+}
+
+img{
+    width: 50px;
+    padding: 15px;
+    
+}
+
+.btn{
+    background-color: rgb(26, 23, 23); 
+    box-shadow: 3px 3px 10px rgb(27, 27, 27); 
+    color: rgb(255, 255, 255); 
+    padding: 10px; 
+    margin: 10px;
+    border-radius: 25px;
+    transition: 1s;
+    
+}
+.btn:hover{
+    transform: scale(1.1);
+    background: blanchedalmond;
+    color: black;
+}
+.btn_promo{
+    display: none;
+}
+
+.btn_promo_click{
+background: rgb(218, 0, 0);
+color: white;
+width: 200px;
+height: 40px;
+border-radius: 25px;
+box-shadow: 3px 3px 8px rgb(3, 3, 3);
+float: right;
+margin-right: 100px ;
+}
+p{
+    color: yellow;
+}
